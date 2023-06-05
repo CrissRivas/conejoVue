@@ -1,0 +1,79 @@
+:root {
+    --text: 'Press Start 2P', "Helvetica Neue", sans-serif;
+    /* Color Theme Swatches in Hex */
+    --G-1: #FFFFFF;
+    --G-2: #C4CFA1;
+    --G-3: #8B956D;
+    --G-4: #4D533C;
+    --G-5: #1F1F1F;
+    /* Color Theme Swatches in RGBA */
+    --G-1-rgba: rgba(255, 255, 255, 1);
+    --G-2-rgba: rgba(195, 207, 161, 1);
+    --G-3-rgba: rgba(138, 149, 109, 1);
+    --G-4-rgba: rgba(77, 82, 59, 1);
+    --G-5-rgba: rgba(31, 31, 31, 1);
+    /* Color Theme Swatches in HSLA */
+    --G-1-hsla: hsla(0, 0, 100, 1);
+    --G-2-hsla: hsla(74, 32, 72, 1);
+    --G-3-hsla: hsla(75, 15, 50, 1);
+    --G-4-hsla: hsla(75, 16, 28, 1);
+    --G-5-hsla: hsla(0, 0, 12, 1);
+}
+
+
+html,
+body {
+    height: 100%;
+    font-size: 62.5%;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--text);
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background: var(--G-3);
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--G-5);
+    text-shadow: 2px 2px var(--G-4);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: .5rem;
+}
+
+h5 {
+    font-size: 0.25rem;
+}
+
+h6 {
+    font-size: .1rem;
+}
