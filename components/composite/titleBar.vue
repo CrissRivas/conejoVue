@@ -17,7 +17,7 @@ import returnBtn from "../atomic/returnBtn";
         },
         props:  {
             titleName:  {
-                type: Array,
+                type: String,
 			    required: true
             }
         }

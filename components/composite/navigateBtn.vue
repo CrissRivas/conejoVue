@@ -10,7 +10,7 @@
     export default {
         props:  {
             titleName:  {
-                type: Array,
+                type: String,
 			    required: true
             }
         }

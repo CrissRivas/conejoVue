@@ -5,6 +5,8 @@
         <img src="@/assets/gif/w.gif" height="50px" class="mx-2" />
         <img src="@/assets/png/cris.png" class="mx-2" height="120px" />
         <img src="@/assets/png/c.png" height="50px" class="mx-2"/>
+
+        <h3 class="my-4">Cristopher Rivas</h3>
       </v-row>
       <v-row>
         <v-col>
