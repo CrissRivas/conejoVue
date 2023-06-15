@@ -10,26 +10,26 @@
 import selectBtn from "../atomic/selectBtn";
 
 export default {
-  components: {
-    selectBtn
-  },
-  data() {
-    return {
-      active: 0
-    };
-  },
-  methods: {
-    handleKeyComponent(value) {
-      this.active = value;
-      this.$emit('keyComponent', value);
+    components: {
+        selectBtn
+    },
+    props:{
+        btns:{
+            type: Array,
+            required: false 
+        }
+    },
+    data() {
+        return {
+        active: 0
+        }
+    },
+    methods: {
+        handleKeyComponent(value) {
+        this.active = value;
+        this.$emit('keyComponent', value);
+        }
     }
-  },
-  props:{
-    btns:{
-        type: Array,
-        required: true
-    } 
-  }
 };
 </script>
 

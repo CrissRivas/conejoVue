@@ -4,7 +4,10 @@
       <titleBar titleName="Ux / Ui"/>
     </v-row>
     <v-row class="my-8">
-      <v-col cols="4">
+      <v-col cols="4" align="center">
+        <v-row justify="center" >
+          <img src="@/assets/svg/fgma.svg" alt="">
+        </v-row>
       </v-col>
       <v-col>
         <p>
