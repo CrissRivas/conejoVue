@@ -6,7 +6,9 @@
     <v-row class="my-8">
       <v-col cols="4" align="center">
         <v-row justify="center" >
-          <img src="@/assets/svg/fgma.svg" alt="">
+          <a href="https://www.figma.com/file/F138FfPVBCRrmAkhumzxR9/Conejo-Cyberpunk?type=design&node-id=0%3A1&t=TBWH1uSJdfgEmSkd-1" target="_blank">
+            <img src="@/assets/svg/fgma.svg" alt="">
+          </a>
         </v-row>
       </v-col>
       <v-col>

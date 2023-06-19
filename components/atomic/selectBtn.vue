@@ -49,15 +49,18 @@ export default {
 
 <style lang="scss" scoped>
 .enabled {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
+  display:grid;
+  place-items: center;
   border: 3px solid #1F1F1F;
-  background-color: #4D533C;
 }
 
 .disabled {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
+  display:grid;
+  place-items: center;
   border: 3px solid #4D533C;
 }
 </style>

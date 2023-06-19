@@ -2,11 +2,22 @@
   <v-row>
     <v-col>
       <v-row justify="center" align="center" class="pa-4 my-4">
-        <img src="@/assets/gif/w.gif" height="50px" class="mx-2" />
+      <a href="https://wa.me/+3337786911" target="_blank">
+        <img src="@/assets/svg/wsp.svg" height="50px" class="mx-2" />
+      </a>
         <img src="@/assets/png/cris.png" class="mx-2" height="120px" />
-        <img src="@/assets/png/c.png" height="50px" class="mx-2"/>
+        <v-tooltip bottom color="transparent">
+          <template v-slot:activator="{ on, attrs }">
+            <img src="@/assets/svg/mail.svg" height="50px" class="mx-2" @click="copiarCorreo" data-correo="cristopher.rivas.aguilar@gmail.com" v-bind="attrs" v-on="on"/>
+          </template> 
+          <p class="tooltip pa-2">cristopher.rivas.aguilar@gmail.com <br> (click to copy)</p>
+        </v-tooltip>
+        
 
-        <h3 class="my-4">Cristopher Rivas</h3>
+        
+      </v-row>
+      <v-row justify="center">
+        <span class="my-4 myName">Cristopher <br> Rivas</span>
       </v-row>
       <v-row>
         <v-col>
@@ -40,8 +51,28 @@ export default {
       crisImg: require('~/assets/png/cris.png')
     }
   },
+  methods: {
+    copiarCorreo(event) {
+      const correo = event.target.dataset.correo;
+      const input = document.createElement('input');
+      input.value = correo;
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+    }
+  }
   
 }
 </script>
-
+<style lang="scss" scoped>
+.myName{
+  font-size: 20px;
+  text-align: center;
+}
+.tooltip{
+  text-align:center;
+  border: 3px solid #1F1F1F;
+}
+</style>
 

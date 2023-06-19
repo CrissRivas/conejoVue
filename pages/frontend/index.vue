@@ -8,9 +8,13 @@
           Documentation
         </h3>
       </v-row>
-      <v-row justify="center" class="ma-4">  
-        <img src="@/assets/svg/stry.svg" height="75px" class="mx-4" alt="">
+      <v-row justify="center" class="ma-4" >  
+      <a href="https://storybook.js.org" target="_blank">
+        <img src="@/assets/svg/stry.svg" height="75px" class="mx-4" alt=""> 
+      </a>
+      <a href="https://github.com/CrissRivas" target="_blank">
         <img src="@/assets/svg/github.svg" height="75px" class="mx-4" alt="">
+      </a>
       </v-row>
       <v-row justify="center" >
         <h3>
@@ -18,7 +22,9 @@
         </h3>
       </v-row>
       <v-row justify="center" class="ma-4">  
+      <a href="https://marketingplatform.google.com/intl/es/about/analytics/" target="_blank">
         <img src="@/assets/svg/analytics.svg" height="75px" class="mx-4" alt="Analytics">
+      </a>
       </v-row>  
     </v-col>
   </v-row>
