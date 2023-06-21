@@ -58,7 +58,7 @@ export default {
         },
         { 
           name:'Atomchek',
-          info:'Pagina enfocada al blockchain',
+          info:'Plataforma para crear y registrar checklist comerciales',
           link:'https://atom.conejo-cyberpunk.xyz'
         },
         { 
