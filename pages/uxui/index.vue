@@ -38,18 +38,33 @@ export default {
       carouselInfo:[
         { 
           name:'conejo-cyberpunk',
-          info:'pagina de portafolio',
+          info:'Mi portafolio hecho con Nuxt.js',
           link:'https://vue.conejo-cyberpunk.xyz'
         },
         { 
-          name:'Ejercicio #1',
+          name:'Prueba API',
           info:'Ejercicio para practica',
+          link:'https://reto.conejo-cyberpunk.xyz'
+        },
+        { 
+          name:'Blockchain',
+          info:'Pagina enfocada al blockchain',
+          link:'https://fjr.vercel.app/'
+        },
+        { 
+          name:'Old Cyberpunk',
+          info:'Pagina anterior de portafolio, hecha con Angular',
           link:'https://www.conejo-cyberpunk.xyz'
         },
         { 
-          name:'cyberpunk',
-          info:'portafolio',
-          link:'https://conejo-cyberpunk.xyz'
+          name:'Atomchek',
+          info:'Pagina enfocada al blockchain',
+          link:'https://atom.conejo-cyberpunk.xyz'
+        },
+        { 
+          name:'Socket.io prueba',
+          info:'Ejercicio para probar funcionamiento de Socket.io',
+          link:'https://socket.conejo-cyberpunk.xyz'
         },
       ]
     }
